@@ -31,4 +31,9 @@ export class MoviesController {
             ...updateData
         };
     }
+
+    @Get("/search")
+    search() {
+        return "We are searching for a movie with a title.";
+    }
 }
